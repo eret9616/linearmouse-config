@@ -1,0 +1,265 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.11.4",
+  "schemes" : [
+    {
+      "if" : {
+        "device" : {
+          "category" : "trackpad",
+          "productID" : "0x0",
+          "productName" : "Apple Internal Keyboard \/ Trackpad",
+          "vendorID" : "0x0"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.5,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : 1,
+        "distance" : "auto",
+        "reverse" : {
+          "vertical" : false
+        },
+        "speed" : 0
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : 3
+        },
+        "smoothed" : {
+          "vertical" : {
+            "enabled" : false
+          }
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "buttons" : {
+        "mappings" : [
+
+        ]
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0x27da",
+          "productName" : "Karabiner DriverKit VirtualHIDPointing 1.8.0",
+          "serialNumber" : "pqrs.org:Karabiner-DriverKit-VirtualHIDPointing",
+          "vendorID" : "0x16c0"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : 1,
+        "distance" : "128px",
+        "reverse" : {
+          "vertical" : false
+        },
+        "speed" : 0
+      }
+    },
+    {
+      "buttons" : {
+        "mappings" : [
+          {
+            "action" : {
+              "run" : "osascript -e 'tell application \"Keyboard Maestro Engine\" to do script \"C8B7F92C-2FD3-4477-96D1-BA4CCCC59D9A\"'\n# or: osascript -e 'tell application \"Keyboard Maestro Engine\" to do script \"translate Chrome\"'\n# or: osascript -e 'tell application \"Keyboard Maestro Engine\" to do script \"C8B7F92C-2FD3-4477-96D1-BA4CCCC59D9A\" with parameter \"Whatever\"'"
+            },
+            "button" : 2,
+            "command" : true,
+            "control" : false,
+            "option" : false,
+            "shift" : false
+          },
+          {
+            "action" : "missionControl",
+            "button" : 3,
+            "command" : false,
+            "control" : false,
+            "option" : false,
+            "shift" : false
+          }
+        ]
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xd038",
+          "productName" : "Keychron 4K Link",
+          "vendorID" : "0x3434"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.5,
+        "disableAcceleration" : true,
+        "speed" : 0.1323
+      },
+      "scrolling" : {
+        "acceleration" : 1,
+        "distance" : 3,
+        "modifiers" : {
+          "horizontal" : {
+            "command" : {
+              "scale" : 4.5,
+              "type" : "changeSpeed"
+            }
+          },
+          "vertical" : {
+            "command" : {
+              "scale" : 4.5,
+              "type" : "changeSpeed"
+            },
+            "shift" : {
+              "type" : "pinchZoom"
+            }
+          }
+        },
+        "speed" : 0
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xd046",
+          "productName" : "Keychron M6 4K",
+          "vendorID" : "0x3434"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.8,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "scale" : 4,
+              "type" : "changeSpeed"
+            }
+          }
+        },
+        "speed" : {
+          "vertical" : 11.77
+        }
+      }
+    },
+    {
+      "buttons" : {
+        "mappings" : [
+          {
+            "action" : "missionControl",
+            "button" : 3,
+            "command" : false,
+            "control" : false,
+            "option" : false,
+            "shift" : false
+          }
+        ]
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xd028",
+          "productName" : "Keychron Ultra-Link 8K",
+          "vendorID" : "0x3434"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.85,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : 1,
+        "distance" : 4,
+        "modifiers" : {
+          "command" : {
+            "scale" : 5,
+            "type" : "changeSpeed"
+          }
+        },
+        "speed" : 0
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0x1015",
+          "productName" : "PIAO",
+          "serialNumber" : "000000000001",
+          "vendorID" : "0x372e"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 1,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : 1,
+        "distance" : {
+          "horizontal" : 4,
+          "vertical" : 3
+        },
+        "modifiers" : {
+          "command" : {
+            "scale" : 3,
+            "type" : "changeSpeed"
+          }
+        },
+        "reverse" : false,
+        "smoothed" : {
+          "vertical" : {
+            "enabled" : false
+          }
+        },
+        "speed" : 0
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xd049",
+          "productName" : "Keychron M6 8K",
+          "vendorID" : "0x3434"
+        }
+      },
+      "pointer" : {
+        "acceleration" : "unset",
+        "disableAcceleration" : true,
+        "redirectsToScroll" : false,
+        "speed" : "unset"
+      },
+      "scrolling" : {
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "scale" : 3,
+              "type" : "changeSpeed"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
